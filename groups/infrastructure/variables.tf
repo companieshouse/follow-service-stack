@@ -32,7 +32,7 @@ variable "ec2_image_id" {
 
 # Auto-scaling Group
 variable "asg_max_instance_count" {
-  default     = 1
+  default     = 2
   type        = number
   description = "The maximum allowed number of instances in the autoscaling group for the cluster."
 }
