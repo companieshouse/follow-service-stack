@@ -11,6 +11,4 @@ locals {
   vpc_name                   = local.stack_secrets["vpc_name"]
   notify_topic_slack_endpoint = local.stack_secrets["notify_topic_slack_endpoint"]
 
-  parameter_store_secrets    = {
-  }
 }
